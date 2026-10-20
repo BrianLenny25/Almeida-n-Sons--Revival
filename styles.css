@@ -5,3 +5,17 @@
 
 /* Updated branded work-shirt portrait in About Us */
 .about-image{background-image:url("founder-portrait.webp");background-position:center 42%;}
+
+/* October 2026: refreshed service photography and expanded founder story */
+.renovation{background-image:url('service-renovation-lowcountry.webp')}
+.painting{background-image:url('service-flooring-finished.webp')}
+#about .section-head{margin-bottom:40px}
+#about .about-grid{align-items:start;gap:clamp(24px,4vw,65px)}
+#about .about-copy h3{font-size:30px;margin:0 0 20px}
+#about .about-copy p{margin:0 0 17px}
+#about .about-copy .about-motto{color:var(--forest);font-size:17px}
+.founder-quote{margin:44px 0 0;padding:30px clamp(22px,5vw,55px);border-left:4px solid var(--gold);background:#eee9dc;border-radius:0 5px 5px 0}
+.founder-quote blockquote{margin:0 0 19px;font:italic clamp(19px,2.2vw,27px)/1.55 'Playfair Display',serif;color:var(--forest)}
+.founder-quote figcaption{display:flex;flex-direction:column;gap:4px;color:var(--ink)}
+.founder-quote figcaption span{font-size:13px;color:var(--muted)}
+@media(max-width:680px){#about .about-grid{gap:28px}.founder-quote{margin-top:32px}}
