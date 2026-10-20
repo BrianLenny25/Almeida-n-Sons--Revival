@@ -19,3 +19,7 @@
 .founder-quote figcaption{display:flex;flex-direction:column;gap:4px;color:var(--ink)}
 .founder-quote figcaption span{font-size:13px;color:var(--muted)}
 @media(max-width:680px){#about .about-grid{gap:28px}.founder-quote{margin-top:32px}}
+
+/* Approved exterior and pre-sale service photos */
+.exterior{background-image:url("service-exterior-lowcountry.webp")}
+.presale{background-image:url("service-presale-for-sale.webp")}
